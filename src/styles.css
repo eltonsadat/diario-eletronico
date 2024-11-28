@@ -1,0 +1,77 @@
+.home{
+    padding: 10px;
+}
+
+.container_form{
+    margin-top: 20px;
+}
+
+.container_input{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 40px;
+}
+
+.title_home{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.error{
+    font-size: 10px;
+    color: darkorange;
+    height: 10px;
+}
+
+.container_form .form{
+    display: flex;
+    gap: 10px;
+}
+
+.container_form .form input, select{
+    flex: 1;
+    padding: 0 10px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.btn_save_form{
+    width: 120px;
+    height: 30px;
+    background-color: #1a2edf;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+.container_table{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container_table h2{
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.table_alunos tr{
+    display: flex;
+}
+
+.flex-1{
+    flex: 1;
+    padding: 0 10px;
+}
+
+.flex-0{
+    flex: 0.5;
+    text-align: center;
+}
+
+.flex-2{
+    flex: 2;
+    padding: 0 10px;
+}
